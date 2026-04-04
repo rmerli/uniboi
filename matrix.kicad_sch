@@ -624,7 +624,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 93.98 91.44 0)
 			(effects
 				(font
@@ -780,7 +780,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 93.98 72.39 0)
 			(effects
 				(font
@@ -936,7 +936,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 132.08 91.44 0)
 			(effects
 				(font
@@ -1160,7 +1160,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 132.08 72.39 0)
 			(effects
 				(font
