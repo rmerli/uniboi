@@ -710,7 +710,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Hotswap:MX-Hotswap-1U"
 			(at 85.09 82.55 0)
 			(effects
 				(font
@@ -866,7 +866,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Hotswap:MX-Hotswap-1U"
 			(at 123.19 63.5 0)
 			(effects
 				(font
@@ -1022,7 +1022,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Hotswap:MX-Hotswap-1U"
 			(at 123.19 82.55 0)
 			(effects
 				(font
@@ -1090,7 +1090,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Hotswap:MX-Hotswap-1U"
 			(at 85.09 63.5 0)
 			(effects
 				(font
