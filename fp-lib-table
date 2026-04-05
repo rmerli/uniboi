@@ -1,4 +1,5 @@
 (fp_lib_table
   (version 7)
   (lib (name "MX_Hotswap")(type "KiCad")(uri "${KIPRJMOD}/MX_V2/MX_Hotswap.pretty")(options "")(descr ""))
+  (lib (name "USB_C_rmerli")(type "KiCad")(uri "${KIPRJMOD}/USB_C/ul_DX07S016JA3R1500/KiCADv6/footprints.pretty")(options "")(descr ""))
 )
