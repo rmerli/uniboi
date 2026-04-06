@@ -1,0 +1,5 @@
+(version 1)
+# Stricter annular ring for plated through-hole component pads only
+(rule "Min annular ring for THT pads"
+    (constraint annular_width (min 0.25mm))
+    (condition "A.Pad_Type == 'Through-hole'"))

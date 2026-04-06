@@ -1,4 +1,4 @@
-(footprint "CONN12_DX07S_JAE"
+(footprint "CONN12_DX07S_JAE_no_edge_cuts"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "CONN12_DX07S_JAE"
+	(property "Value" "CONN12_DX07S_JAE_no_edge_cuts"
 		(at 0 -3.4544 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -351,4 +351,15 @@
 		(uuid "d45c2b9f-0b42-4a96-b954-e19a9354c33b")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/USB_C/models/DX07S016JA3-V1_JAE_Proprietary.step"
+		(offset
+			(xyz 0 1.25 1.6)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )
