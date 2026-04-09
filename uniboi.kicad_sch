@@ -3385,42 +3385,6 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 0 -27.94 0)
-					(length 7.62)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 0 -30.48 0)
-					(length 7.62)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin bidirectional line
 					(at 40.64 0 180)
 					(length 7.62)
@@ -3486,6 +3450,44 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "DX07S016JA3R1500_1_1"
+				(pin power_in line
+					(at 0 -27.94 0)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -30.48 0)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4148,12 +4150,6 @@
 		(uuid "45301d27-d4bf-4db5-ba4a-b6124ec08e42")
 	)
 	(junction
-		(at 77.47 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5317b4e6-5e78-413e-ac4d-e6c1860884c5")
-	)
-	(junction
 		(at 24.13 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4176,6 +4172,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9f89f721-fdf8-45d3-87f1-57d9af3df386")
+	)
+	(junction
+		(at 77.47 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b3264b3b-d96c-4e55-9f27-09cce09824e4")
 	)
 	(junction
 		(at 124.46 77.47)
@@ -4387,16 +4389,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 30.48) (xy 77.47 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2799c4dd-a4a5-42f9-922f-192e0cf2c9ed")
-	)
-	(wire
-		(pts
 			(xy 149.86 115.57) (xy 166.37 115.57)
 		)
 		(stroke
@@ -4414,16 +4406,6 @@
 			(type default)
 		)
 		(uuid "3254c6d7-83ed-424e-a731-a1a8aa61649b")
-	)
-	(wire
-		(pts
-			(xy 77.47 34.29) (xy 77.47 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "325512d1-7fcc-4422-9a41-087308d864af")
 	)
 	(wire
 		(pts
@@ -4454,6 +4436,16 @@
 			(type default)
 		)
 		(uuid "430a147c-dd1b-4faf-9fdb-33f7e607cd6b")
+	)
+	(wire
+		(pts
+			(xy 77.47 30.48) (xy 88.9 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bbe6a23-391b-4315-965a-69ac96b8d75a")
 	)
 	(wire
 		(pts
@@ -4677,16 +4669,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 30.48) (xy 88.9 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1866d56-347e-4e57-8dca-9ecfae2e7ed4")
-	)
-	(wire
-		(pts
 			(xy 110.49 73.66) (xy 110.49 77.47)
 		)
 		(stroke
@@ -4724,6 +4706,16 @@
 			(type default)
 		)
 		(uuid "ceb7cf8b-2b5d-44ed-a1b3-aed24295ad2d")
+	)
+	(wire
+		(pts
+			(xy 77.47 34.29) (xy 77.47 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0c72642-f3dd-4996-806f-1478080a60f0")
 	)
 	(wire
 		(pts
@@ -4784,6 +4776,16 @@
 			(type default)
 		)
 		(uuid "eb21bad2-33a9-40c5-9b52-70f16892f58e")
+	)
+	(wire
+		(pts
+			(xy 77.47 34.29) (xy 77.47 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eee9d497-84e8-4c6f-b585-2dcf88871ef7")
 	)
 	(wire
 		(pts
@@ -6031,72 +6033,6 @@
 			(project "uniboi"
 				(path "/68edf1f0-3df8-4c26-9976-9a41f0a4fe75"
 					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 88.9 30.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0afe8448-850e-420a-9248-5d732b978886")
-		(property "Reference" "#PWR01"
-			(at 88.9 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 88.9 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 88.9 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 88.9 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 88.9 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4909a7c5-f7f6-41dc-8b3d-35360b9c4d9e")
-		)
-		(instances
-			(project ""
-				(path "/68edf1f0-3df8-4c26-9976-9a41f0a4fe75"
-					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -7426,6 +7362,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 88.9 30.48 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9b793bc7-6080-455f-b652-bb3ee5fc2079")
+		(property "Reference" "#PWR023"
+			(at 88.9 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 88.9 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 88.9 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "450c7d6c-6d41-4cca-a338-7da00db7c814")
+		)
+		(instances
+			(project "uniboi"
+				(path "/68edf1f0-3df8-4c26-9976-9a41f0a4fe75"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Regulator_Linear:XC6206PxxxMR")
 		(at 124.46 66.04 0)
 		(unit 1)
@@ -7656,7 +7658,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical"
+		(property "Footprint" "connector:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical"
 			(at 177.8 78.74 0)
 			(effects
 				(font
